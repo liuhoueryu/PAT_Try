@@ -15,7 +15,7 @@ public class shiyan {
         for(int i=0;i<number;i++){
             t2[i]=in_t2.nextInt();}
         System.out.println("T1数组：");
-        for(int i=0;i<number;i++){              //输出两个数组
+        for(int i=0;i<number;i++){              //输出两个数组  
             System.out.print("["+t1[i]+"]"); }
         System.out.println("\nT2数组：");
         for(int i=0;i<number;i++){              
