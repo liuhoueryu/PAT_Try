@@ -1,5 +1,6 @@
 package pat;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Test0002 {
@@ -7,16 +8,17 @@ public class Test0002 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
+		DecimalFormat df = new DecimalFormat("#.0");
 		int n = sc.nextInt();
 		int[] a = new int[n];
 		int[] temp= new int[5];
 		int s=-1;
 		int m=1;
-		int t=0;
-		int d=0;
+		double t=0.0;
+		double d=0.0;
 		int f=0;
 		int c=0;
-		float l=0;
+		double l=0.0;
 		for(int i=0;i<n;i++)
 			a[i]=sc.nextInt();
 		for(int j=0;j<n;j++) {
@@ -44,7 +46,7 @@ public class Test0002 {
 		}
 		for(int k =0;k<3;k++)
 			System.out.print(temp[k]+" ");
-		System.out.print(l+" ");
+		System.out.print(df.format(l)+" ");
 		System.out.print(temp[4]);
 	}
 
