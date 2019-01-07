@@ -24,7 +24,7 @@ Case #1: false
 Case #2: true
 Case #3: true
 Case #4: false
- * **/
+ * * */
 import java.util.Scanner;
 
 public class Test0001 {
