@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Test0003Ultimate {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//  Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		int a=1;
 		int b=1000;
