@@ -11,11 +11,12 @@ public class Test0003Ultimate {
 		int b=1000;
 		int t=sc.nextInt();
 		int s=sc.nextInt();
-		int temp=s-t+1;
-		int [] g=new int[temp];
+		int temp=s+1;
+		int c=a;
+		int [] g=new int[1000];
 		int m=0;
 		int h=0;
-		for(int c=a;c<=b;c++) {
+		for(c=a;c<=b;c++) {
 			int n=0;
 			for(long i =2;i<c;i++) {
 				if(c%i==0)
@@ -26,7 +27,7 @@ public class Test0003Ultimate {
 				h++;
 			}
 		}
-		for(int v=0;v<temp;v++) {
+		for(int v=t;v<temp;v++) {
 			System.out.print(g[v]);
 			m++;
 			if(m%10==0)
